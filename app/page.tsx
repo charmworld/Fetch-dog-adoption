@@ -12,11 +12,7 @@ import { Heart, Dog } from "lucide-react"
 import { toast } from "@/hooks/use-toast"
 
 export default function LoginPage() {
-  const [name, setName] = useState("")
-  const [email, setEmail] = useState("")
-  const [isLoading, setIsLoading] = useState(false)
-  const router = useRouter()
-
+ 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault()
     setIsLoading(true)
