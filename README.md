@@ -4,6 +4,10 @@ A modern and responsive dog adoption web app that allows users to log in, browse
 
 ---
 
+## Live Demo
+[https://your-app-name.netlify.app](https://your-app-name.netlify.app)
+
+
 ##  Features
 
 -  User authentication with email + name
